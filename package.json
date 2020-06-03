@@ -1,0 +1,23 @@
+{
+  "name": "google-test-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss -o assets/css/style.dist.css assets/css/style.src.css",
+    "watch": "postcss -o assets/css/style.dist.css assets/css/style.src.css -w",
+    "server": "live-server",
+    "start": "run-p watch server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "cssnano": "^4.1.10",
+    "live-server": "^1.2.1",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^7.0.32",
+    "postcss-autoreset": "^2.0.2",
+    "postcss-cli": "^7.1.1"
+  }
+}

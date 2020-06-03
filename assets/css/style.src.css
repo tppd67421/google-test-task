@@ -1,0 +1,12 @@
+body {
+    background: red;
+    display: flex;
+    transform: scale(0.5);
+}
+html {
+    display: flex;
+}
+.qwe{
+    width: 100px;
+    height: 100px;
+}
