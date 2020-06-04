@@ -20,22 +20,40 @@
                     <a class="menu__link menu__link_text" href="#">Картинки</a>
                 </li>
                 <li>
-                    <button class="hamburger menu__link">
-                        <img class="hamburger__img" src="assets/img/menu.svg" alt="Hamburger menu">
+                    <button id="hamburger-menu" class="hamburger menu__link" title="Приложения Google">
+                        <img class="hamburger__img" src="assets/img/menu-button.svg" alt="Hamburger menu">
                     </button>
                 </li>
                 <li>
-                    <button class="menu__link menu__link_name" href="#" data-name="A"></button>
+                    <button id="account" class="menu__link menu__link_name" title="Аккаунт Google: Алексей Петраков" data-name="A"></button>
                 </li>
             </ul>
         </nav>
     </header>
 
     <main class="content">
-        <a class="logo" href="#"><img src="" alt=""></a>
-        <div class="input"><input type="text"></div>
-        <div class="buttons"><button>Поиск в Google</button><button>Мне повезет!</button></div>
-        <div class="info"></div>
+        <a class="logo" href="#">
+            <img class="logo__img" src="assets/img/google-logo.svg" alt="Logo">
+        </a>
+        <div class="input-wrapper">
+            <img src="assets/img/search-icon.svg" alt="Search icon" class="input-wrapper__icon input-wrapper__icon_search">
+            <input class="input-wrapper__input" type="text">
+            <button id="keyboard" title="Экранная клавиатура" class="input-button">
+                <img src="assets/img/keyboard-icon.svg" alt="Keyboard icon" class="input-wrapper__icon input-wrapper__icon_keyboard">
+            </button>
+            <button id="microphone" title="Голосовой поиск" class="input-button">
+                <img src="assets/img/google-microphone-icon.svg" alt="Microphone icon" class="input-wrapper__icon input-wrapper__icon_microphone">
+            </button>
+        </div>
+        <div class="buttons-wrap">
+            <button class="buttons-wrap__search" id="search-to-google">Поиск в Google</button>
+            <button class="buttons-wrap__lucky" id="i-am-lucky">Мне повезет!</button>
+        </div>
+        <p class="content__info">
+            Сервисы Google доступны на разных языках:
+            <a class="content__info_link" href="#">English</a>
+            <a class="content__info_link" href="#">Беларуская</a>
+        </p>
     </main>
 
     <footer class="footer">
