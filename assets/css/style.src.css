@@ -15,7 +15,9 @@ ul {
 
 button, input {
 	outline: none;
+	padding: 0;
 	border: 0;
+	background: none;
 }
 
 /* reset finish */
@@ -64,6 +66,7 @@ body {
 .menu__link {
 	display: flex;
 	margin: 0 17px;
+	cursor: pointer;
 }
 
 .menu__link:last-child {
