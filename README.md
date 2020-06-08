@@ -2,11 +2,11 @@
 
 ## Project description
 
-This project completed with `postcss` plugin (`autoprefixer` and `cssnano`). We compile `style.src.css` to `style.dist.css`, which located in `assets/css` directory. HTML markup completed with use BEM metodology.
+This project completed with `postcss` plugin (`autoprefixer` and `cssnano`). `style.src.css` is compiled to `style.dist.css`, which located in `assets/css` directory. HTML markup done using BEM metodology.
 
 ## Npm scripts:
 
-`npm run build`: compile `assets/css/style.src.css` to `assets/css/style.dist.css`. We use `postcss` with `autoprefixer` and `cssnano`.
+`npm run build`: compile `assets/css/style.src.css` to `assets/css/style.dist.css`. `postcss` is used with `autoprefixer` and `cssnano`.
 
 `npm run watch`: watch changes.
 
